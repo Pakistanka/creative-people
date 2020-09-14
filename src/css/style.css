@@ -1,0 +1,10 @@
+@import './global/normalize.css';
+@import './global/fonts.css';
+@import './global/variables.css';
+@import './blocks/header.css';
+@import './blocks/news.css';
+@import './blocks/select.css';
+@import './blocks/footer.css';
+@import './global/general.css';
+@import './blocks/about.css';
+@import './blocks/slider.css';

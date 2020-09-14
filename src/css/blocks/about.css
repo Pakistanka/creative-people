@@ -1,0 +1,115 @@
+/* Блок о нас */
+
+.site-main {
+    padding-top: 110px;
+  }
+  
+  .site-main__heading {
+    margin-bottom: 30px;
+  
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    color: #333333;
+  }
+  
+  .site-main__nav {
+    margin-bottom: 50px;
+  }
+  
+  .main-nav__list {
+    padding: 0;
+    margin: 0;
+  
+    list-style: none;
+  }
+  
+  .main-nav__item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  
+  .main-nav__link {
+    position: relative;
+  
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .main-nav__link:hover {
+    color: #ff6c6c;
+  }
+  
+  .main-nav__link::after {
+    position: absolute;
+    top: calc(50% - 7px);
+    right: -16px;
+  
+    width: 10px;
+    height: 14px;
+  
+    background-image: url('../img/svg/arrow.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    content: '';
+  }
+  
+  .main-info {
+    padding-bottom: 80px;
+  }
+  
+  .main-info__text {
+    margin-top: 0;
+    margin-bottom: 20px;
+  
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    color: #000000;
+  }
+  
+  .main-info__list {
+    margin-bottom: 20px;
+  
+    list-style: none;
+  }
+  
+  .main-info__list--sublist {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+  
+  .main-info__item {
+    position: relative;
+  
+    padding-left: 28px;
+  
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    color: #000000;
+  }
+  
+  .main-info__item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  
+  .main-info__item::before {
+    position: absolute;
+    top: 6px;
+    left: 0;
+  
+    width: 8px;
+    height: 8px;
+  
+    background-color: #01576C;
+    border-radius: 50%;
+  
+    content: '';
+  }
+  

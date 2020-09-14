@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans';
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.container-header,
+.container-main {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.wrapper {
+  max-width: 988px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container-header,
+  .container-main {
+    padding-right: calc(50% - 384px + 40px);
+    padding-left: calc(50% - 384px + 40px);
+  }
+  .wrapper {
+    width: auto;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .container-header {
+    padding-right: calc(50% - 512px + 42px);
+    padding-left: calc(50% - 512px + 42px);
+  }
+
+  .container-main {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: calc(50% - 512px + 42px);
+    margin-left: calc(50% - 512px + 42px);
+  }
+}
+
+@media (min-width: 1440px) {
+  .container-header {
+    padding-right: calc(50% - 720px + 40px);
+    padding-left: calc(50% - 720px + 40px);
+  }
+
+  .container-main {
+    margin-left: calc(50% - 720px + 226px);
+  }
+}

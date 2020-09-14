@@ -1,0 +1,21 @@
+.selection {
+
+}
+.selection-select {
+    font-family: "Noto Sans", 'Times New Roman', Times, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+
+    letter-spacing: -0.02em;
+
+    color: #000000;
+
+    border: none;
+    outline: #FF6C6C;
+}
+.selection-select:last-child {
+    margin-left: 75px;
+}

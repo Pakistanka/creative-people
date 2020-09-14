@@ -1,0 +1,113 @@
+/* Шапка */
+
+.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 0;
+  
+    background-color: #ffffff;
+
+    min-width: 320px;
+    width: auto;
+  }
+  
+  .site-header--scrolled-down {
+    display: none;
+  }
+  
+  .site-header__button {
+    padding: 0;
+  
+    background-color: transparent;
+    border: 0;
+  
+    cursor: pointer;
+  }
+  
+  .site-header__button:hover,
+  .site-header__link:not(.site-header__link--logo):hover {
+    opacity: 0.75;
+  }
+  
+  .site-header__nav {
+    display: none;
+  }
+  
+  .site-header__link {
+    display: block;
+  }
+  
+  .site-header__link--logo {
+    padding-top: 4px;
+  }
+  
+  .site-header__link--language {
+    display: none;
+  }
+  
+  @media (min-width: 768px) {
+    .site-header {
+      justify-content: flex-start;
+      padding-top: 30px;
+      width: 100%;
+    }
+  
+    .site-header__button {
+      margin-right: 247px;
+    }
+  
+    .site-header__icon-burger,
+    .site-header__icon-language,
+    .site-header__icon-phone {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .site-header__link--logo {
+      padding-top: 12px;
+      margin-right: auto;
+    }
+  
+    .site-header__logo {
+      width: 103px;
+      height: 28px;
+    }
+  
+    .site-header__link-wrapper {
+      display: flex;
+    }
+  
+    .site-header__link--language {
+      display: block;
+      margin-right: 20px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .site-header__button {
+      margin-right: 358px;
+    }
+  }
+  
+  @media (min-width: 1440px) {
+    .site-header {
+      padding-top: 40px;
+    }
+  
+    .site-header__button {
+      margin-right: 568px;
+    }
+  
+    .site-header__link--language {
+      margin-right: 30px;
+    }
+  }
+  

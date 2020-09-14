@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans'), local('NotoSans'),
+       url('../fonts/noto-sans-v9-latin_cyrillic-regular.woff2') format('woff2'),
+       url('../fonts/noto-sans-v9-latin_cyrillic-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Noto Sans Bold'), local('NotoSans-Bold'),
+       url('../fonts/noto-sans-v9-latin_cyrillic-700.woff2') format('woff2'),
+       url('../fonts/noto-sans-v9-latin_cyrillic-700.woff') format('woff');
+}
